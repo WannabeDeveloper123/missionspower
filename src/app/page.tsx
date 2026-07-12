@@ -9,14 +9,11 @@ export default function Home() {
             Missions Power Ministries, Inc.
           </p>
           <h1 className="max-w-3xl text-4xl font-semibold leading-tight sm:text-5xl">
-            Every Christian is called to{" "}
-            <span className="text-gold">send</span> or{" "}
-            <span className="text-gold">go</span>.
+            Missions <span className="text-gold">Power</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-muted">
-            Pastor Terry Wong shares the biblical, practical convictions
-            behind his book <em>Missions Power</em> — a call for the church
-            to give sacrificially and go boldly into the mission field.
+            A man of passion, mission, and vision. Find out more about the
+            author of this amazing new book!
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link
@@ -40,12 +37,12 @@ export default function Home() {
           {
             href: "/about",
             title: "About the Author",
-            body: "A man of passion, mission, and vision. Learn about Pastor Terry Wong, senior pastor of Calvary Assembly of God in Honolulu.",
+            body: "A man of passion, mission, and vision. Find out more about the author of this amazing new book! (Download speaking request form)",
           },
           {
             href: "/endorsements",
             title: "Special Endorsements",
-            body: "Read endorsements from pastors, professors, and ministry leaders across the globe.",
+            body: "Read the special endorsements from a wide cross section of professors, pastors, and ministry leaders!",
           },
         ].map((card) => (
           <Link

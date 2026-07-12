@@ -31,6 +31,60 @@ const endorsements = [
     name: "Dr. Rick Seaward",
     title: "Apostolic Overseer, Victory Family Centre, Singapore",
   },
+  {
+    quote:
+      "Passion and conviction leap off the pages of this book. Read it yes, but better yet, inhale the energy. Pastor Terry Wong has written what he has lived, and practice makes powerful. Missions Power will convict and motivate you to go into all the world and beyond that, equip you to unleash a tipping point of global impact. Bravo Terry!",
+    name: "Norman Nakanishi",
+    title: "Senior Pastor, Grace Bible Church Pearlside, Hawaii",
+  },
+  {
+    quote:
+      "Terry is a missionary/pastor and this book is a reflection of that. His passion, knowledge and experience of getting churches involved in missions is remarkable. I am so glad that he has put this all down on paper as an inspiration and guideline for us all.",
+    name: "Scott Douma",
+    title: "Senior Pastor, Yokohama Grace Bible Church, Japan",
+  },
+  {
+    quote:
+      "I have known Terry and Vicky Wong for over ten years. During that time I have watched them embrace Jesus’ last command and make it their first priority. I have watched Calvary Assembly go from a church with a missions program to a church with a missions passion. Under Terry’s leadership they are now one of the great missions churches in the world today. Terry and Vicky live this message. I love them both and pray Missions Power will challenge and change many.",
+    name: "Jack Hanes",
+    title: "Senior Pastor, ImagineNations Church, Australia",
+  },
+  {
+    quote:
+      "Books don’t often live up to their titles. This one does. Terry Wong’s incredible journey leading Calvary Assembly in missions is both inspiring and instructive. Pastors willing to learn from Terry will have the joy of seeing themselves and their churches enter a new dimension of obedience to the Master and impact on the world for Christ.",
+    name: "Randy Hurst",
+    title: "Director of Communications, Assemblies of God World Missions, Missouri",
+  },
+  {
+    quote:
+      "Terry Wong is a leader, communicator, a visionary, a high impact man. In Missions Power you will read how a traditional church became a dynamic miracle ministering New Testament church, how you can lead your church to live, breathe and dream missions. The stories will grip you and excite you. I’ve known Terry as a growing vibrant Christian, since his university days. Now I know him as a mature leader, out to change his world!",
+    name: "Dr. David Lim",
+    title: "Senior Pastor, Grace Assembly of God, Singapore",
+  },
+  {
+    quote:
+      "Terry Wong incorporates solid missional biblical principles with exciting personal application. He makes a statement that every church, regardless of numerical size, has the potential of being the explosive, dynamic, passionate, missional church that brings elation to God’s heart. It’s a riveting book captivating every generation for the upcoming years.",
+    name: "Dr. George Nagato",
+    title: "District Superintendent, Hawaii Assemblies of God",
+  },
+  {
+    quote:
+      "Dr. Wong gives us a clear message on the missionary call and missionary imperative of the church that is both biblically grounded and culturally relevant. Its message will both inform as well as challenge pastors and laypersons alike who seek to be obedient to the Lord’s great commission.",
+    name: "Dr. Peter Hintzoglou",
+    title: "Adjunct assistant professor, Fuller Theological Seminary",
+  },
+  {
+    quote:
+      "Missions Power is a must read for any Christian thirsty for the heart of God. The practical and powerful insights from Pastor Terry Wong resonate beyond theory and speculation but are reality and revelation. Missions Power will inspire, motivate and bring you back to the first love of our Christian faith: Souls.",
+    name: "Art Sepúlveda",
+    title: "Senior Pastor, Word of Life Christian Center (Honolulu, HI)",
+  },
+  {
+    quote:
+      "Missions Power is not just a “how to” on establishing missions awareness. It’s a book that reveals the heart of Terry Wong, a pastor sold out to God’s call to reach the world with the Gospel. Be ready to be challenged and changed.",
+    name: "James “Tex” Texeira",
+    title: "Senior Pastor, Solid Rock Ministries, Hawaii",
+  },
 ];
 
 export default function EndorsementsPage() {

@@ -47,7 +47,15 @@ const faqs = [
   },
   {
     q: "Who is Terry Wong?",
-    a: "Terry Wong is Senior Pastor of Calvary Assembly of God in Honolulu, Hawaii. He took a small church that was doing little in missions to being one of the top missions-giving churches in the U.S. Assemblies of God.",
+    a: "Terry Wong is Senior Pastor of Calvary Assembly of God in Honolulu, Hawaii. He took a small church that was doing little in missions to being one of the top missions giving churches in the U.S. Assemblies of God and one that's planting churches around the world. Terry is in high demand to speak internationally and nationally, primarily on missions but also on signs and wonders, and leadership.",
+  },
+  {
+    q: "What is Calvary Assembly of God known for?",
+    a: "Calvary Assembly of God, the church that Terry Wong pastors, is known as a leading missions church not only in Hawaii but within the entire U.S. Assemblies of God. The church's GIVING has inspired other churches to give more to world missions. The church's GOING has been exemplary and resulted in churches sending more people into the missions field.",
+  },
+  {
+    q: "Is Terry Wong available for speaking engagements?",
+    a: "Absolutely! It is Terry Wong's passion for churches to do more missions. As a result, if his schedule allows, he would be honored and excited to speak and teach on missions. If you're interested in booking him, go to the About Terry page and complete the Speaking Request Form.",
   },
 ];
 
