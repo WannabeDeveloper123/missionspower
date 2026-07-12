@@ -35,17 +35,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-6xl gap-6 px-6 py-16 sm:grid-cols-3">
+      <section className="mx-auto grid max-w-6xl gap-6 px-6 py-16 sm:grid-cols-2">
         {[
           {
             href: "/about",
             title: "About the Author",
             body: "A man of passion, mission, and vision. Learn about Pastor Terry Wong, senior pastor of Calvary Assembly of God in Honolulu.",
-          },
-          {
-            href: "/purchase",
-            title: "Excerpts from Missions Power",
-            body: "“Statistics show that out of the 50 states in our nation, 49 have decreasing church attendance.” — Chapter Four",
           },
           {
             href: "/endorsements",

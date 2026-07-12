@@ -31,16 +31,6 @@ export default function PurchasePage() {
             </p>
           </div>
         </div>
-
-        <div className="mt-10 rounded-lg border border-border bg-panel p-6">
-          <h3 className="text-lg font-semibold text-foreground">
-            Excerpt from Chapter Four
-          </h3>
-          <p className="mt-3 italic text-muted">
-            &ldquo;Statistics show that out of the 50 states in our nation,
-            49 have decreasing church attendance.&rdquo;
-          </p>
-        </div>
       </div>
     </div>
   );
