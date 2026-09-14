@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: "Is Terry Wong available for speaking engagements?",
-    a: "Absolutely! It is Terry Wong's passion for churches to do more missions. As a result, if his schedule allows, he would be honored and excited to speak and teach on missions. If you're interested in booking him, go to the About Terry page and complete the Speaking Request Form.",
+    a: "Absolutely! It is Terry Wong's passion for churches to do more missions. As a result, if his schedule allows, he would be honored and excited to speak and teach on missions. If you're interested in booking him, go to the Speaking Request page and complete the form.",
   },
 ];
 

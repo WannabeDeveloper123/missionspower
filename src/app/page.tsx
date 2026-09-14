@@ -37,7 +37,7 @@ export default function Home() {
           {
             href: "/about",
             title: "About the Author",
-            body: "A man of passion, mission, and vision. Find out more about the author of this amazing new book! (Download speaking request form)",
+            body: "A man of passion, mission, and vision. Find out more about the author of this amazing new book! (Submit a speaking request)",
           },
           {
             href: "/endorsements",

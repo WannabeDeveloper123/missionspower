@@ -10,6 +10,7 @@ const links = [
   { href: "/foreword", label: "Foreword" },
   { href: "/endorsements", label: "Endorsements" },
   { href: "/purchase", label: "Purchase" },
+  { href: "/speaking-request", label: "Speaking Request" },
   { href: "/connect", label: "Connect" },
   { href: "/faqs", label: "FAQs" },
 ];
@@ -36,12 +37,12 @@ export default function Nav() {
           </span>
         </Link>
 
-        <nav className="hidden gap-7 md:flex">
+        <nav className="hidden gap-5 lg:flex">
           {links.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className={`text-sm uppercase tracking-wide transition-colors hover:text-gold ${
+              className={`whitespace-nowrap text-xs uppercase tracking-wide transition-colors hover:text-gold ${
                 pathname === l.href ? "text-gold" : "text-muted"
               }`}
             >
@@ -51,7 +52,7 @@ export default function Nav() {
         </nav>
 
         <button
-          className="text-muted md:hidden"
+          className="text-muted lg:hidden"
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle menu"
         >
@@ -62,7 +63,7 @@ export default function Nav() {
       </div>
 
       {open && (
-        <nav className="flex flex-col gap-1 border-t border-border bg-panel px-6 py-4 md:hidden">
+        <nav className="flex flex-col gap-1 border-t border-border bg-panel px-6 py-4 lg:hidden">
           {links.map((l) => (
             <Link
               key={l.href}

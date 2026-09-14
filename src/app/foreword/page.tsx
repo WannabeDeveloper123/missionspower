@@ -3,7 +3,7 @@ import PageHeader from "@/components/PageHeader";
 export default function ForewordPage() {
   return (
     <div>
-      <PageHeader eyebrow="Missions Power" title="Foreword" />
+      <PageHeader eyebrow="Missions Power" title="Foreword" subtitle="by John Bevere" />
       <div className="mx-auto max-w-3xl space-y-6 px-6 py-14 leading-relaxed text-foreground/90">
         <p>
           When it comes to missions, God doesn&rsquo;t ask anything of us He
