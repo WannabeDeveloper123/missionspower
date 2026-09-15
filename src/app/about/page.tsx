@@ -1,3 +1,4 @@
+import Image from "next/image";
 import PageHeader from "@/components/PageHeader";
 
 export default function AboutPage() {
@@ -5,6 +6,16 @@ export default function AboutPage() {
     <div>
       <PageHeader eyebrow="About the Author" title="About Terry" />
       <div className="mx-auto max-w-3xl space-y-6 px-6 py-14 leading-relaxed text-foreground/90">
+        <div className="relative mx-auto h-56 w-56 overflow-hidden rounded-full border-2 border-gold/50">
+          <Image
+            src="/images/terry-portrait.jpg"
+            alt="Rev. Dr. Terry Wong"
+            fill
+            sizes="224px"
+            className="object-cover"
+            priority
+          />
+        </div>
         <p>
           Rev. Dr. Terry Wong has been Presbyter of the Hawaii Assemblies of
           God for over 18 years. Previously he was senior pastor of Calvary
@@ -35,6 +46,21 @@ export default function AboutPage() {
           Vicky, have three adult children, Brandon, Vanessa and Ryan, and
           one daughter-in-law, Alexis.
         </p>
+        <div className="overflow-hidden rounded-lg border border-border">
+          <div className="relative aspect-[3/2] w-full">
+            <Image
+              src="/images/wong-family.jpg"
+              alt="Dr. Terry Wong with his family"
+              fill
+              sizes="(min-width: 768px) 768px, 100vw"
+              className="object-cover"
+            />
+          </div>
+          <p className="bg-panel px-4 py-2 text-center text-xs text-muted">
+            Dr. Terry Wong with his family
+          </p>
+        </div>
+
         <div className="rounded-lg border border-gold/40 bg-panel p-6 text-center">
           <p className="text-foreground">
             Invite Dr. Terry Wong to speak at your church or event.
